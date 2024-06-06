@@ -1,0 +1,35 @@
+server:
+  port: 9191
+  tomcat:
+    threads.max: 2000
+    max-connections: 10000
+  servlet:
+    context-path: /${spring.application.name}
+
+spring:
+  application:
+    name: carbon-tracker
+
+redfish:
+  server-auth-usr: <username>
+  server-auth-pwd: <pass>
+  device:
+    x-api-user: <username>
+    x-api-key: <key>
+    server:
+      list-url: <your_server_list_endpoint>
+      devices:
+        url: <your_devices_list_endpoint>
+    vm:
+      list-url: <your_vm_list_endpoint>
+    appInst:
+      list_url: <your_application_list_endpoint>
+    report-devices:
+      url: <your_report_device_endpoint>
+
+
+
+carbon-tracker:
+  scheduler:
+    enable: true
+

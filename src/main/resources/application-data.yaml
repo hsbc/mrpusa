@@ -1,0 +1,19 @@
+gcp:
+  local-run: true
+
+monitoring.servers: <servar name>
+
+
+server-resource-usage.report:
+  root: "smb://<path_to_your_file>/"
+  file: "<report_file_name>.csv"
+  domain: <your_domain>
+  account: <username>
+  password: <pass>
+
+logging:
+  level:
+    root: INFO
+#    org.springframework: DEBUG
+#    org.apache.http: DEBUG
+#    httpclient.wire: DEBUG

@@ -1,0 +1,34 @@
+[
+  {
+    "ts": "2024-04-24T12:05:34.313216100Z",
+    "ServerName": "HKE00200",
+    "AverageConsumedWatts": 699,
+    "IntervalInMin": 20,
+    "MaxConsumedWatts": 823,
+    "MinConsumedWatts": 678
+  },
+  {
+    "ts": "2024-04-24T12:25:44.625364400Z",
+    "ServerName": "HKE00200",
+    "AverageConsumedWatts": 697,
+    "IntervalInMin": 20,
+    "MaxConsumedWatts": 811,
+    "MinConsumedWatts": 671
+  },
+  {
+    "ts": "2024-04-24T12:05:35.796883900Z",
+    "ServerName": "HKE00676",
+    "AverageConsumedWatts": 699,
+    "IntervalInMin": 20,
+    "MaxConsumedWatts": 823,
+    "MinConsumedWatts": 678
+  },
+  {
+    "ts": "2024-04-24T12:25:42.673584Z",
+    "ServerName": "HKE00676",
+    "AverageConsumedWatts": 697,
+    "IntervalInMin": 20,
+    "MaxConsumedWatts": 811,
+    "MinConsumedWatts": 671
+  }
+]
