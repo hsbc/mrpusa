@@ -1,10 +1,10 @@
-# Measuring Real Power Usage of Software Applications
+# Measuring Real Power Usage of Software Applications (mrpusa)
 
-Measuring Real Power Usage of Software Applications for open sources
+Measuring Real Power Usage of Software Applications open source version 
 
 # Measuring Real Power Usage of Software Methodology
 
-#### MRPUSA is an application that serves as the basis for software carbon emission measuring initiative. This initiative, a system and method for measuring the real power draw and carbon emissions of software applications, allows businesses and consumers to accurately assess emissions at an individual software level providing a greater level of granularity in reporting.
+#### MRPUSA is an application that serves as the basis for a software carbon emission measuring initiative. This initiative, a system and method for measuring the real power draw and carbon emissions of software applications, allows businesses and consumers to accurately assess emissions at an individual software level providing a greater level of granularity in reporting.
 
 The core proposition of this initiative is being able to connect a user device to a visualisation platform or service
 that is informed by a series of modules that account for the intake of energy consumption data, mapping applications to
@@ -18,8 +18,8 @@ The MRPUSA application serves to configure and access data across our different 
 aggregate data on our inventory, that is then utilised according to our methodology to arrive at an emission figure for
 a given device, cluster or service. Written primarily in Java, using Spring framework and Maven build management, this
 application can be broken down at a high level to three components: configuration files, data collection jobs & write
-streams for declaring collected data's destination. At current, write streams and some configuration files are written
-and dependent on Google's BigQuery and its Java libraries, however for open-sourcing this can be re-examined and should
+streams for declaring collected data's destination. Currently, write streams and some configuration files are written
+and are dependent on Google's BigQuery and its Java libraries, however for this can be re-examined and should
 serve in its current state as a reference point for how this code for data collection could be pushed into one of the
 larger Cloud provider's services for further analysis/manipulation & visualisation.
 
