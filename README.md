@@ -20,7 +20,7 @@ a given device, cluster or service. Written primarily in Java, using Spring fram
 application can be broken down at a high level to three components: configuration files, data collection jobs & write
 streams for declaring collected data's destination. Currently, write streams and some configuration files are written
 and are dependent on Google's BigQuery and its Java libraries. However for this open sourced version, this can be re-examined and should
-serve in its current state as a reference point for how this code for data collection could be pushed into one of the
+serve in its current state as a reference point for how the code for data collection, could be pushed into one of the
 larger Cloud provider's services for further analysis/manipulation & visualisation.
 
 <br>
