@@ -1,6 +1,6 @@
 # Measuring Real Power Usage of Software Applications (mrpusa)
 
-Measuring Real Power Usage of Software Applications open source version 
+Measuring Real Power Usage of Software Applications: open source version 
 
 # Measuring Real Power Usage of Software Methodology
 
@@ -19,7 +19,7 @@ aggregate data on our inventory, that is then utilised according to our methodol
 a given device, cluster or service. Written primarily in Java, using Spring framework and Maven build management, this
 application can be broken down at a high level to three components: configuration files, data collection jobs & write
 streams for declaring collected data's destination. Currently, write streams and some configuration files are written
-and are dependent on Google's BigQuery and its Java libraries, however for this can be re-examined and should
+and are dependent on Google's BigQuery and its Java libraries. However for this open sourced version, this can be re-examined and should
 serve in its current state as a reference point for how this code for data collection could be pushed into one of the
 larger Cloud provider's services for further analysis/manipulation & visualisation.
 
