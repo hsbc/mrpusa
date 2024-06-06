@@ -15,7 +15,7 @@ to emission figures.
 ### Measuring Real Power Usage of Software Applications Overview:
 
 MRPUSA serves to configure and access data across our different API endpoints and databases to
-aggregate data on our inventory, that is then utilised according to our methodology to arrive at an emission figure for
+aggregate data on an inventory, that is then utilised according to our methodology to arrive at an emission figure for
 a given device, cluster or service. Written primarily in Java, using Spring framework and Maven build management, this
 application can be broken down at a high level to three components: configuration files, data collection jobs & write
 streams for declaring collected data's destination. Currently, write streams and some configuration files are written
