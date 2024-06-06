@@ -2,7 +2,7 @@
 
 Measuring Real Power Usage of Software Applications: open source version 
 
-# Measuring Real Power Usage of Software Methodology
+# Methodology
 
 #### MRPUSA is an application that serves as the basis for a software carbon emission measuring initiative. This initiative, a system and method for measuring the real power draw and carbon emissions of software applications, allows businesses and consumers to accurately assess emissions at an individual software level providing a greater level of granularity in reporting.
 
@@ -12,9 +12,9 @@ devices, attributing power to these applications from their mapped devices and c
 to emission figures.
 <br>
 
-### Measuring Real Power Usage of Software Application Overview:
+### Measuring Real Power Usage of Software Applications Overview:
 
-The MRPUSA application serves to configure and access data across our different API endpoints and databases to
+MRPUSA serves to configure and access data across our different API endpoints and databases to
 aggregate data on our inventory, that is then utilised according to our methodology to arrive at an emission figure for
 a given device, cluster or service. Written primarily in Java, using Spring framework and Maven build management, this
 application can be broken down at a high level to three components: configuration files, data collection jobs & write
@@ -193,7 +193,7 @@ required.
 However, this should only be understood as an example and other means of visually presenting data collected via this
 methodology can be achieved and distributed as per your/your users' needs.
 
-# Measuring Real Power Usage of Software Application Project :
+# Measuring Real Power Usage of Software Applications Project :
 
 # PART-1:Execute JAVA APPLICATION
 
